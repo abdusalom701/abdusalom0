@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+}
+header .head{
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+
+    font-size: 10px;
+}
+.head img{
+    width: 40px;
+    height: 40px;
+}
+.head .h{
+    background-color: #F1A900;
+    padding: 5px;
+    text-align: center;
+       
+}
+.ma2{
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+}
+main div{
+    display: flex;
+    justify-content: space-around; 
+    text-decoration: none;  
+}
+main a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.rasm{
+    width: 100%;
+    height: 660px;
+    background-image: url('./pubg.png');
+    /* background-size: 100%; */
+    background-color: black;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text{
+    background-color: #F1A900;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+.tex{
+    background-color: black;
+    width: 160px;
+    height: 31px;
+    text-align: center;
+    color: white;
+}
+.erangel{
+    background-color: #F1A900;
+    opacity: 0.7;
+}
+.foot{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.foot img {
+    width: 20px;
+    height: 20px;
+}
+.r img{
+    width: 80px;
+    height: 50px;
+}
+.s{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 300px;
+}
